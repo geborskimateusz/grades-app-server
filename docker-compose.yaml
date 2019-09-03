@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  mysql-standalone:
+    image: mysql:latest
+    environment:
+    - MYSQL_ROOT_PASSWORD=password
+    - MYSQL_DATABASE=grades
+    - MYSQL_USER=user
+    - MYSQL_PASSWORD=password
+    ports:
+    - "33061:3306"
+    volumes:
+    - /data/mysql
+  grades:
+    image: grades
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+    - mysql-standalone
+    ports:
+    - 8080:8080
+    volumes:
+    - /data/grades
