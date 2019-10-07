@@ -10,9 +10,9 @@
 
 Implemented functionalities:
 
-🔐 JSON Web Token authentication
-👋 Drag & Drop, due to Angular Material
-📫 Custom Mailbox
-🧰 Search bars, expanded lists, modals and others.
+1. 🔐 JSON Web Token authentication
+2. 👋 Drag & Drop, due to Angular Material
+3. 📫 Custom Mailbox
+4. 🧰 Search bars, expanded lists, modals and others.
 
 [📺 App Presentation](https://www.youtube.com/watch?v=6zuCkftUtnY&feature=youtu.be)
