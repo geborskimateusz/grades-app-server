@@ -2,10 +2,9 @@
 
 [![CircleCI](https://circleci.com/gh/geborskimateusz/grades-backend.svg?style=svg)](https://circleci.com/gh/geborskimateusz/grades-backend)
 
-## Grades backend 👾
-# Grades is a student tracker application when you can communicate with Teachers and track student grades
-
-# This project was build with frameworks like Angular and Spring.
+# Grades backend 👾
+## Grades is a student tracker application when you can communicate with Teachers and track student grades
+## This project was build with frameworks like Angular and Spring.
 
 
 Implemented functionalities:
